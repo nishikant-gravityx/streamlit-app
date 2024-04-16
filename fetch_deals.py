@@ -28,7 +28,7 @@ import notion_df
 notion_df.pandas()
 
 
-#Config Parameters ,
+#Twitter Config Parameters ,
 consumer_key = "kRbg23ZpPh6c388m3zOPw4BOy"
 consumer_secret =  "czpjeAJCDpHbJ2UVTO8DiWBC5T9dLl7zLEZ25x1RuTZFB0Farj"
 access_token = "1401250141479194625-jTCUxSS3csjEOdq6VTo2EK20kwJJhE"
@@ -39,14 +39,20 @@ bearer_token_gx="AAAAAAAAAAAAAAAAAAAAADlZiQEAAAAAB5X7V9v0lbqvjnKmaPFVWpbO3bE%3Dh
 bearer_token_vy="AAAAAAAAAAAAAAAAAAAAAO9aiQEAAAAA8FEVNJ7CIxB9KbfDgYNXBRALreU%3DCwbuyJfYADoj91fq7JfDwFpiG1RZnIHAG3zjEuZMtM27tsfg3w"
 bearer_token_nkx="AAAAAAAAAAAAAAAAAAAAAOOGiQEAAAAA86eXGz%2FiLLbHXezROPlicrq4mU4%3Duat48JMMTerECjoFt440A6lXXME0E9qI8lMwjprYLCDPp8L2XW"
 bearer_token_list=[bearer_token,bearer_token_an,bearer_token_gx,bearer_token_vy,bearer_token_nkx]
-# tg_chat_id="@dealflowtest"
-tg_chat_id="-1001539278724"
-tg_bot_token="5452504081:AAEE0f7c4X1aa1cHByKp_TIBcFPZb8KrPiI"
+
+#TG Config Parameters 
+# tg_chat_id="undefined"
+tg_chat_id="undefined"
+tg_bot_token="undefined"
+
+#Sheets Config Parameters 
 # sheet_key="1kTVSyil9sdpLy9vUSPRIOEXLoLxzXQk2CNYOisBDTtw"
 # sheet_key="16NyQaoXbhFFz5e19ZYgpIDXtxJqXfWLinnDVRjgp21w"#vc subset updated list
 sheet_key="1QlSIspEWqFTL4D89Gl3x8k1ymxRZ8FTdbdCQtSHsHbQ"#biggest_list_updated
 # sheet_key="1qk6Qn7DAVEvJSmrlclGHyIoNujaXoHe2BsZsO0lNFxE" #Tier_included_test_sheet
 # sheet_key="1BwTE-XVOO33Q46DeGBppU1zXkpHxZFdugZrxFQslHck"#15namessheet
+
+#notion Config Parameters 
 notion_page_url = "https://www.notion.so/510f6a137fad4a289c93951130905fb3?v=ca714f4225f746e689b7ba108880661e"
 notion_api_key = "secret_8fk5mpNGVbY433QuCICIbgRa5VQeuAPDTgN5V3p1ERW"
 
